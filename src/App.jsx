@@ -7,13 +7,14 @@ import Project from "./Component/Project";
 import About from "./Component/About";
 import Skills from "./Component/Skills";
 import Contect from "./Component/Contect";
+import Footer from "./Component/Footer";
 function App() {
   const router = createBrowserRouter([
     {
       path: "/",
       element: (
         <>
-          <Header /> <Home /> <About /> <Skills />  <Contect /> <Project />
+          <Header /> <Home /> <About /> <Skills />  <Contect /> <Project /> <Footer/>
         </>
       ),
     },
@@ -21,7 +22,7 @@ function App() {
       path: "/About",
       element: (
         <>
-          <Header /> <About />
+          <Header /> <About /> <Footer/>
         </>
       ),
     },
@@ -29,7 +30,7 @@ function App() {
       path: "/Project",
       element: (
         <>
-          <Header /> <Project />
+          <Header /> <Project /> <Footer/>
         </>
       ),
     },
@@ -37,7 +38,7 @@ function App() {
       path: "/skills",
       element: (
         <>
-          <Header /> <Skills />
+          <Header /> <Skills /> <Footer/>
         </>
       ),
     },
@@ -45,7 +46,7 @@ function App() {
       path: "/Contect",
       element: (
         <>
-          <Header /> <Contect />
+          <Header /> <Contect /> <Footer/>
         </>
       ),
     },

@@ -7,7 +7,7 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailIcon from "@mui/icons-material/Mail";
 import PersonIcon from "@mui/icons-material/Person";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-// import Forms from "./Forms"; // Assuming Forms is another component you have
+
 
 const Contact = (props) => {
   return (
@@ -25,9 +25,7 @@ const Contact = (props) => {
           <div className="messagemainblock">
             <h5>Get in Touch</h5>
             <p className="contactparagrafh">
-              You Can Contact Me Here So Here Is Form Tag You Can Direct Mail
-              Here And As Well As Tap In Click Also It Will Redirect On Their
-              That's All ThankYou So Much... Sir/Mam{" "}
+            You can contact me directly here. Simply click on the provided links to reach out to me via your preferred method. Thank you so much!{" "}
             </p>
             <div className="contactlogo">
               <LogoName

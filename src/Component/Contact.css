@@ -2,7 +2,6 @@
   height: auto;
   width: 100%;
   padding-top: 0%;
-  /* background-image: linear-gradient(white, rgb(208, 201, 201)); */
 }
 .ContactusBlock {
   height: 12%;
@@ -55,4 +54,10 @@
   height: 12px;
   border-radius: 6px;
   background-color: rgb(0, 195, 255);
+}
+
+
+.whoiam{
+  min-width: 100px;
+  width: fit-content;
 }
