@@ -49,7 +49,7 @@ function About() {
             Positive Attitude If You Give Me One Chance I Will Proof My Self So
             Its Does'nt Mean I Am Begging You Sir/Mam give Me Job... If You
             Really Like My Profile Then Obesely You Will Hire Me.. Because Self
-            Respect Is Must Important For Me.. And I Am Fully OpenMinded Boy You
+            Respect Is Must Important For Me.. And I Am Fully Open Minded Guy You
             Can Ask Me AnyThing Or Disscus With Me Openly I Don't Have Any Issue
             And About My Hobby I Like Watching Movices.. And Also Playing Game
             Like PubG.. And About Future I Want To Become AI Devloper.... Thats

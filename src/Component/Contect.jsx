@@ -43,7 +43,7 @@ const Contact = (props) => {
               <LogoName
                 logo={WhatsAppIcon}
                 names={"WhatsApp"}
-                link={"http://wa.me/8769207505"}
+                link={"http://wa.me/+918769207505"}
                 val={"Click"}
               />
               <LogoName
