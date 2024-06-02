@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .img {
@@ -29,42 +30,60 @@ p {
 
 /* For tablets and smaller desktops */
 @media (max-width: 1024px) {
-  .img, .info {
+  .imagediv {
+    padding: 0px 10px;
+  }
+  .img,
+  .info {
     width: 100%;
     height: auto;
     padding-top: 5vh;
   }
 
   .img {
-    height: auto; /* Adjust as needed */
-  }
-
-  .info {
-    height: auto; /* Adjust as needed */
-  }
-
-  p {
-    font-size: 1rem; /* Adjust text size */
-  }
-}
-
-/* For mobile devices */
-@media (max-width: 600px) {
-  .img, .info {
-    width: 100%;
     height: auto;
-    padding-top: 2vh;
-  }
-
-  .img {
-    height: auto; /* Adjust as needed */
   }
 
   .info {
-    height: auto; /* Adjust as needed */
+    height: auto;
+    padding: 0% 2%;
+    margin-top: 1%;
   }
 
   p {
-    font-size: 0.9rem; /* Adjust text size */
+    font-size: 1rem;
+    .mybutoon {
+      margin-left: 30vw;
+    }
+  }
+
+  /* For mobile devices */
+  @media (max-width: 600px) {
+    .imagediv {
+      padding: 0px 10px;
+    }
+    .img,
+    .info {
+      width: 100%;
+      height: auto;
+      padding-top: 2vh;
+    }
+
+    .img {
+      height: auto;
+    }
+
+    .info {
+      height: auto;
+      padding: 0% 2%;
+      margin-top: 1%;
+    }
+
+    p {
+      font-size: 0.9rem;
+    }
+    .mybutoon {
+      margin-left: 30vw;
+    }
   }
 }
