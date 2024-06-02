@@ -1,0 +1,73 @@
+.infor{
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.type , .image{
+  width: 50vw;
+  box-sizing: border-box;
+  /* border: 2px solid black; */
+  height: 80vh;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+  height: 70vh;
+}
+.type{
+  box-sizing: border-box;
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.btnhireme{
+  align-self: first baseline;
+  margin-top: 50px;
+  /* border: 2px solid black; */
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: rgb(255, 255, 255);
+  background-color: rgb(25, 118, 210);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+
+.Name{
+  font-size: 4rem;
+  font-weight: 700;
+  color: #025c7a;
+}
+
+.Hi{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 900px) {
+
+  .Name{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #025c7a;
+  }
+  .type {
+    width: 100vw;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 80vh;
+  }
+  .image{
+    border: 2px solid black;
+    height: 70vh;
+    display: none;
+    width: 0px;
+  }
+}
