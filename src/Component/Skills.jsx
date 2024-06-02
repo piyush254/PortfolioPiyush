@@ -23,21 +23,26 @@ const Skill = (props) => {
             </div>
             <div className="lolly2">
               As I Already Told You I Love Technology So I Know
-              <span style={{ color: "#fff" }}> Data-structure</span> And As
-              Well As Web Technolgy In Web Technolgy I Know
-              <span style={{ color: "#fff" , marginLeft :"6px" }}>
-                 Html,Css,JavaScript,React-js,Node-js,Mongodb...
+              <span style={{ color: "#fff" }}> Data-structure</span> And As Well
+              As Web Technolgy In Web Technolgy I Know
+              <span style={{ color: "#fff", marginLeft: "6px" }}>
+                Html,Css,JavaScript,React-js,Node-js,Mongodb...
               </span>
               And Also Know Some Programing Langauge Like
-              <span style={{ color: "#fff" }}> Java ,C</span> And Some
-              Version Control Like
-              <span style={{ color: "#fff" }}> Git,Github</span> So If You
-              Give Me Once Chance So Defnitily I Will Proof My Self And In
-              Future I Also Wana Learn Ethical Hacking And Machine Learning As
-              Well As AI Devloper. ThankYou So Much..
+              <span style={{ color: "#fff" }}> Java ,C</span> And Some Version
+              Control Like
+              <span style={{ color: "#fff" }}> Git,Github</span> So If You Give
+              Me Once Chance So Defnitily I Will Proof My Self And In Future I
+              Also Wana Learn Ethical Hacking And Machine Learning As Well As AI
+              Devloper. ThankYou So Much..
             </div>
             <Button variant="contained" className="skillbutton">
-              <a className="links" href="https://www.linkedin.com/in/piyush-kumar-9071a1202/">Read_more</a>
+              <a
+                className="links"
+                href="https://www.linkedin.com/in/piyush-kumar-9071a1202/"
+              >
+                Read_more
+              </a>
             </Button>
           </div>
 
@@ -64,12 +69,13 @@ const Skill = (props) => {
             <Progress value={90} />
             <span className="skillsname">C</span>
             <Progress value={60} />
-            <span className="skillsname">Python</span>
+            <span className="skillsname">Sping Boot</span>
             <Progress value={40} />
             <span className="skillsname">Github</span>
             <Progress value={60} />
-
             <span className="skillsname">Mongodb</span>
+            <Progress value={60} />
+             <span className="skillsname">SQL</span>
             <Progress value={60} />
           </div>
         </div>

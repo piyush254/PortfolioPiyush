@@ -49,6 +49,7 @@ const Contact = (props) => {
               <LogoName
                 logo={MailIcon}
                 names={"Email-id"}
+                link={"mailto:piyush1999.iimt@gmail.com"}
                 val={"piyush1999.iimt@gmail.com"}
               />
               <LogoName
