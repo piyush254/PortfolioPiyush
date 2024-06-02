@@ -61,7 +61,7 @@
   .type {
     width: 100vw;
     box-sizing: border-box;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 80vh;
   }
   .image{
