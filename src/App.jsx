@@ -6,7 +6,7 @@ import Home from "./Component/Home";
 import Project from "./Component/Project";
 import About from "./Component/About";
 import Skills from "./Component/Skills";
-import Contect from "./Component/Contect";
+import Contact from "./Component/Contect";
 import Footer from "./Component/Footer";
 function App() {
   const router = createBrowserRouter([
@@ -14,7 +14,7 @@ function App() {
       path: "/",
       element: (
         <>
-          <Header /> <Home /> <About /> <Skills />  <Contect /> <Project /> <Footer/>
+          <Header /> <Home /> <About /> <Skills />  <Contact /> <Project /> <Footer/>
         </>
       ),
     },
@@ -43,10 +43,10 @@ function App() {
       ),
     },
     {
-      path: "/Contect",
+      path: "/Contact",
       element: (
         <>
-          <Header /> <Contect /> <Footer/>
+          <Header /> <Contact /> <Footer/>
         </>
       ),
     },

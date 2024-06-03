@@ -2,7 +2,7 @@
   "routes": [
     {
       "path": "/",
-      "component": [
+      "components": [
         "Header",
         "Home",
         "About",
@@ -14,7 +14,7 @@
     },
     {
       "path": "/About",
-      "component": [
+      "components": [
         "Header",
         "About",
         "Footer"
@@ -22,7 +22,7 @@
     },
     {
       "path": "/Project",
-      "component": [
+      "components": [
         "Header",
         "Project",
         "Footer"
@@ -30,7 +30,7 @@
     },
     {
       "path": "/skills",
-      "component": [
+      "components": [
         "Header",
         "Skills",
         "Footer"
@@ -38,7 +38,7 @@
     },
     {
       "path": "/Contact",
-      "component": [
+      "components": [
         "Header",
         "Contact",
         "Footer"
