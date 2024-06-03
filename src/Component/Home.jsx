@@ -2,6 +2,10 @@ import React from "react";
 // import Typewriter from 'typewriter-effect/dist/core';
 import myimage from "../Image/image.jpg"
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
+import Project from "./Project";
+import About from "./About";
+import Skills from "./Skills";
+import Contact from "./Contect";
 import "./Home.css";
 function Home() {
   const [typeEffect] = useTypewriter({
@@ -31,6 +35,7 @@ function Home() {
         <img src={myimage} alt="image" />
         </div>
       </div>
+      <About /> <Skills /> <Contact /> <Project />
     </>
   );
 }
