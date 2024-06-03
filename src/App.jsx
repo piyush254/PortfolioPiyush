@@ -11,49 +11,6 @@ import Footer from "./Component/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Skill from "./Component/Skills";
 function App() {
-  // const router = createBrowserRouter([
-
-  //   {
-  //     path: "/",
-  //     element: (
-  //       <>
-  //         <Header /> <Home /> <About /> <Skills />  <Contact /> <Project /> <Footer/>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     path: "/About",
-  //     element: (
-  //       <>
-  //         <Header /> <About /> <Footer/>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     path: "/Project",
-  //     element: (
-  //       <>
-  //         <Header /> <Project /> <Footer/>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     path: "/skills",
-  //     element: (
-  //       <>
-  //         <Header /> <Skills /> <Footer/>
-  //       </>
-  //     ),
-  //   },
-  //   {
-  //     path: "/Contact",
-  //     element: (
-  //       <>
-  //         <Header /> <Contact /> <Footer/>
-  //       </>
-  //     ),
-  //   },
-  // ]);
 
   return (
     <>
@@ -88,6 +45,11 @@ function App() {
           } /><Route path="/contact" element = {
             <>
               <Contact/>
+            </>
+          } />
+          <Route path="*" element = {
+            <>
+              <h1>page not found</h1>
             </>
           } />
         </Routes>
