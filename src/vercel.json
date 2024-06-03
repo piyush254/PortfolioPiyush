@@ -1,48 +1,8 @@
 {
-  "routes": [
-    {
-      "path": "/",
-      "components": [
-        "Header",
-        "Home",
-        "About",
-        "Skills",
-        "Contact",
-        "Project",
-        "Footer"
-      ]
-    },
-    {
-      "path": "/About",
-      "components": [
-        "Header",
-        "About",
-        "Footer"
-      ]
-    },
-    {
-      "path": "/Project",
-      "components": [
-        "Header",
-        "Project",
-        "Footer"
-      ]
-    },
-    {
-      "path": "/skills",
-      "components": [
-        "Header",
-        "Skills",
-        "Footer"
-      ]
-    },
-    {
-      "path": "/Contact",
-      "components": [
-        "Header",
-        "Contact",
-        "Footer"
-      ]
-    }
+  "rewrites": [
+      {
+          "source": "/(.*)",
+          "destination": "/index.html"
+      }
   ]
 }
