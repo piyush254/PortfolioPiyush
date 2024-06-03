@@ -1,0 +1,48 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "component": [
+        "Header",
+        "Home",
+        "About",
+        "Skills",
+        "Contact",
+        "Project",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/About",
+      "component": [
+        "Header",
+        "About",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/Project",
+      "component": [
+        "Header",
+        "Project",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/skills",
+      "component": [
+        "Header",
+        "Skills",
+        "Footer"
+      ]
+    },
+    {
+      "path": "/Contact",
+      "component": [
+        "Header",
+        "Contact",
+        "Footer"
+      ]
+    }
+  ]
+}
