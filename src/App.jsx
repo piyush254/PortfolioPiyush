@@ -11,7 +11,6 @@ import Footer from "./Component/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Skill from "./Component/Skills";
 function App() {
-
   return (
     <>
       <BrowserRouter>
@@ -33,25 +32,38 @@ function App() {
               </>
             }
           />
-          <Route path="/skills" element = {
-            <>
-              <Skill/>
-            </>
-          } />
-          <Route path="/project" element = {
-            <>
-              <Project/>
-            </>
-          } /><Route path="/contact" element = {
-            <>
-              <Contact/>
-            </>
-          } />
-          <Route path="*" element = {
-            <>
-              <h1>page not found</h1>
-            </>
-          } />
+          <Route
+            path="/skills"
+            element={
+              <>
+                <Skill />
+              </>
+            }
+          />
+          <Route
+            path="/project"
+            element={
+              <>
+                <Project />
+              </>
+            }
+          />
+          <Route
+            path="/contact"
+            element={
+              <>
+                <Contact />
+              </>
+            }
+          />
+          <Route
+            path="*"
+            element={
+              <>
+                <h1>page not found</h1>
+              </>
+            }
+          />
         </Routes>
         <Footer />
       </BrowserRouter>
