@@ -31,7 +31,6 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  /* justify-content: center; */
   gap: 20px;
   list-style: none;
   margin: 0;
@@ -51,6 +50,7 @@ a {
 .FirstWord {
   font-size: 2rem;
 }
+
 footer{
   background-color: #965454;
   display: grid;
