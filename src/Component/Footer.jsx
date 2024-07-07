@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <footer>
-        <p>&copy; All rights reserved</p>
+        <p style={{textAlign : "center" , fontWeight : "600" , color : "blue"}}>Welcome to Piyush Portfolio</p>
       </footer>
     </>
   );

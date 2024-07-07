@@ -55,8 +55,14 @@ const Skill = (props) => {
             <Progress value={85} />
             <span className="skillsname">React-js</span>
             <Progress value={75} />
+            <span className="skillsname">React-js</span>
+            <Progress value={75} />
             <span className="skillsname">Redux</span>
-            <Progress value={70} />
+            <Progress value={80} />
+            <span className="skillsname">Node-js</span>
+            <Progress value={75} />
+            <span className="skillsname">Express-js</span>
+            <Progress value={75} />
             <span className="skillsname">Java</span>
             <Progress value={75} />
             <span className="skillsname">DataStructure</span>
@@ -64,19 +70,19 @@ const Skill = (props) => {
             <span className="skillsname">BootStrap</span>
             <Progress value={80} />
             <span className="skillsname">PostMan</span>
-            <Progress value={60} />
+            <Progress value={80} />
             <span className="skillsname">Tailwind</span>
             <Progress value={90} />
-            <span className="skillsname">C</span>
+            <span className="skillsname">C Programming</span>
             <Progress value={60} />
             <span className="skillsname">Sping Boot</span>
-            <Progress value={40} />
+            <Progress value={60} />
             <span className="skillsname">Github</span>
-            <Progress value={60} />
+            <Progress value={80} />
             <span className="skillsname">Mongodb</span>
-            <Progress value={60} />
+            <Progress value={80} />
              <span className="skillsname">SQL</span>
-            <Progress value={60} />
+            <Progress value={70} />
           </div>
         </div>
       </div>
