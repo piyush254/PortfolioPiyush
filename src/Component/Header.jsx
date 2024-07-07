@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
-import resume from "../Image/Piyush__Resume.pdf";
+import resume from "../Image/PiyushResume.pdf";
 
 function Header() {
   return (

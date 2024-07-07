@@ -55,8 +55,6 @@ const Skill = (props) => {
             <Progress value={85} />
             <span className="skillsname">React-js</span>
             <Progress value={75} />
-            <span className="skillsname">React-js</span>
-            <Progress value={75} />
             <span className="skillsname">Redux</span>
             <Progress value={80} />
             <span className="skillsname">Node-js</span>
