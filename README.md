@@ -1,5 +1,5 @@
-# Click here to show Deployed link
-
+#  Deployed link
+  Click on the portfolio to visit the deployment link.
 - [Portfolio](https://portfolio-piyush-tau.vercel.app/)
 
 # React + Vite
