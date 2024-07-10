@@ -15,7 +15,7 @@ function Header() {
           <NavLink className={(e) => e.isActive ? "Active" : ""} to="/skills"><li>Skills</li></NavLink>
           <NavLink className={(e) => e.isActive ? "Active" : ""} to="/Contact"><li>Contact</li></NavLink>
           <div className="ml-auto">
-            <a href="https://resumebackend-xhv2.onrender.com/piyush/resume/overleaf">
+            <a href="https://resumebackend-xhv2.onrender.com/piyush">
               <button className="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded">
                 Download Resume
               </button>
