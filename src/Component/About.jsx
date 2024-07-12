@@ -51,8 +51,8 @@ function About() {
             Really Like My Profile Then Obesely You Will Hire Me.. Because Self
             Respect Is Must Important For Me.. And I Am Fully Open Minded Guy You
             Can Ask Me AnyThing Or Disscus With Me Openly I Don't Have Any Issue
-            And About My Hobby I Like Watching Movices.. And Also Playing Game
-            Like PubG.. And About Future I Want To Become AI Devloper.... Thats
+            And About My Hobby I Like Watching Movices And Also Playing Games
+            And About Future I Want To Become AI Devloper.... Thats
             All You Can Download My Resume Also... Thankyou So Much Sir/Mam..
           </p>
           <a href= "https://resumebackend-xhv2.onrender.com/piyush" >
