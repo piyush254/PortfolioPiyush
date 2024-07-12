@@ -29,7 +29,7 @@ function About() {
       </h3>
       <div className="imagediv">
         <div className="img">
-          <img src={myimage} alt="Image" />
+          <img src={myimage} alt="Image" className="img1" />
         </div>
         <div className="info">
           <p>
