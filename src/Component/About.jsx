@@ -43,17 +43,7 @@ function About() {
             </span>
           </p>
           <p>
-            And I Am good Listener As well As I Have Good UnderStanding Level
-            And I Am Also Quick Learner... I Love Technology You Can Watch My
-            Project.... And I Also Love To Explore In Technolgy And I Have
-            Positive Attitude If You Give Me One Chance I Will Proof My Self So
-            Its Does'nt Mean I Am Begging You Sir/Mam give Me Job... If You
-            Really Like My Profile Then Obesely You Will Hire Me.. Because Self
-            Respect Is Must Important For Me.. And I Am Fully Open Minded Guy You
-            Can Ask Me AnyThing Or Disscus With Me Openly I Don't Have Any Issue
-            And About My Hobby I Like Watching Movices And Also Playing Games
-            And About Future I Want To Become AI Devloper.... Thats
-            All You Can Download My Resume Also... Thankyou So Much Sir/Mam..
+          I am a good listener and have a strong understanding of various concepts. I am also a quick learner and passionate about technology. You can review my projects to see my capabilities. I love exploring advancements in technology and always maintain a positive attitude.If you give me an opportunity, I will prove myself. Self-respect is extremely important to me, and I believe my skills and qualities speak for themselves.I am an open-minded individual, and you can discuss anything with me freely. I have no issues with honest and open communication.As for my hobbies, I enjoy watching movies and playing games.Thank you very much for your time, and feel free to download my resume.
           </p>
           <a href= "https://drive.google.com/drive/folders/1xS-MkWJuXF6TrYgmEZD5-ciAh3QgUN5R" >
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4 mybutoon ">
