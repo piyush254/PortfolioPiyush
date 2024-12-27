@@ -3,7 +3,7 @@ import { Typewriter, useTypewriter } from "react-simple-typewriter";
 import "./About.css";
 import { NavLink } from "react-router-dom";
 import resume from "../Image/PiyushResume.pdf"
-import myimage from "../Image/image.jpg"
+import myimage from "../Image/new.jpg"
 function About() {
   const [typeEffect] = useTypewriter({
     words: [

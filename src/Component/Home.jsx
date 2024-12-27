@@ -1,6 +1,6 @@
 import React from "react";
 // import Typewriter from 'typewriter-effect/dist/core';
-import myimage from "../Image/image.jpg"
+import myimage from "../Image/new.jpg"
 import { Typewriter, useTypewriter } from "react-simple-typewriter";
 import Project from "./Project";
 import About from "./About";
