@@ -33,7 +33,7 @@ function About() {
         </div>
         <div className="info">
           <p>
-            Hii i'm Piyush Kumar and I am a{" "}
+            Hii i'm Piyush Kumar a{" "}
             <span
               style={{
                 color: "red",

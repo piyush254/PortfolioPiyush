@@ -8,7 +8,7 @@
 }
 
 .img {
-  width: 28vw;
+  width: 26vw;
   height: auto;
   box-sizing: border-box;
   padding-top: 10vh;
@@ -83,6 +83,8 @@ p {
 
     .img {
       height: auto;
+      margin-left: 0px;
+      margin-bottom: 1.2rem;
     }
 
     .info {
