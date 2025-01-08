@@ -50,7 +50,7 @@ const Skill = (props) => {
             <span className="skillsname">Html</span>
             <Progress value={80} />
             <span className="skillsname">Css</span>
-            <Progress value={90} />
+            <Progress value={80} />
             <span className="skillsname">JavaScript</span>
             <Progress value={85} />
             <span className="skillsname">React-js</span>
